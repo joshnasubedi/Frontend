@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+
+
+<body>
+  <div class="container"></div>
+</body>
+<script>
+    
+    function fcn(){
+     
+
+        let skill=["frontend developer0","backende developer","designer","app"];
+        let output=(skill[Math.floor(Math.random()*skill.length)]);
+    
+        
+    return`<div class="box" id="box">
+        <img src="banner.png" height="250px" width="250px">
+        <h3>${output}</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Temporibus quae voluptatibus tenetur, quas
+            molestiae aliquam ratione corrupti dolorum nesciunt eaque veritatis nihil eveniet error in cupiditate
+            laudantium. Fugit, similique delectus.</p>
+            <button class="readmore">READ More</button>
+    </div>`;
+    
+}
+function total(){
+    var box1= document.querySelector(".container");
+        
+    for(let i=0; i<3; i++){
+        box1.innerHTML+= fcn();
+    }
+}
+total();
+
+//if we use retrun keyword we need to assign that fucntion to a vairable
+</script>
+
+</html>
