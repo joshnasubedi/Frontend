@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .rectangle{
+        height: 100px;
+        width:100px;
+        background-color: rgb(255, 0, 0);
+
+    }
+    /* .circle{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+       display: none;
+    } */
+
+</style>
+<body>
+    <button id="b" onclick="btn()">Count</button>
+    <div class="rectangle" id="r">
+       
+    </div>
+
+<!-- <div class="circle" id="c">
+
+</div> -->
+    <script>
+        var user= document.getElementById("r");
+    //   var users=user.classList.replace("circle") ;
+      
+user.id="c";
+let count=0;
+function btn(){
+    count++;
+    document.getElementById('b').textContent = count;
+     if(count == 10) {
+        user.classList.replace("rectagle","circle");
+        user.style.borderRadius= '50%';
+        user.style.backgroundColor= "blue";
+            }
+        }
+btn();
+         
+
+
+
+
+    </script>
+</body>
+</html>

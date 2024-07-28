@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .button{
+        background-color: red;
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        font-size: large;
+    }
+    .button1{
+        background-color: rgb(101, 99, 99);
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        font-size: large; 
+    }
+
+</style>
+<body>
+    <Button class="button" id="btn" onclick="subs()">Subscribe</Button>
+</body>
+<script>
+    const user= document.getElementById('btn');
+    function subs(){
+        if(user.innerHTML==='Subscribe')
+        {
+            user.innerHTML='Subscribed';
+            user.classList.add("button1");
+        }
+        else{
+            user.classList.replace("button1","button");
+            user.innerHTML='Subscribe';
+
+        }
+    }
+</script>
+</html>

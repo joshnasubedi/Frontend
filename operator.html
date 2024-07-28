@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+    <script type="text/javascript">
+        
+        
+        console.log("hey");
+        var number;
+       number = parseInt(prompt("Enter a number"));
+       var fact = 1;
+       if(number == 0){
+        console.log(`The factorial of${number}is 1`);
+       }
+       else if(number<0){
+        console.log(`The factorial ofnegative ${number}is not possible`);
+       }
+       else{
+       
+        for(let i=number;i>=1;i--){
+            fact = fact*i;
+            
+        }
+        // console.log(`The factorial of ${number}is${fact}`);
+        document.write(`The factorial of ${number}is${fact}`);
+       }
+    </script>  
+</body>
+</html>
+<!-- 
+//primer or not
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number = prompt("Enter a number");
+        if(number==1){
+            console.log(`${number}is neither prime nor composite`);
+        }
+        else if(number<1)
+        {
+            console.log(`${number}isnot prime`);
+        }
+        else{
+            for(var i=2; i<number; i++){
+                if(number%i ==0){
+                    var result=`${number}is not a prime`;
+                }
+                else{
+                    var result=`${number} is a prime number`;
+                }
+            }
+            console.log(result);
+        }
+    </script>
+</body>
+</html> -->

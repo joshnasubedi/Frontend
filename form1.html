@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .formm{
+      align-items: center;
+      height: 100vh;
+    }
+</style>
+<body>
+    <form class="formm" id="frm" >
+        <label>Full Name:</label>
+        <input type="text" id="fullname"><br>
+        <label>Last Name</label>
+        <input type="text" id="lastname">
+        <p id="error"></p>
+        <p id="output"></p>
+        <button id="btn" type="submit">Submit</button>
+    </form>
+    <script>
+        let fr=document.getElementById("frm");
+        function my(event){
+            event.preventDefault();
+            let fn= document.getElementById("fullname").value;
+            let ln= document.getElementById("lastname").value;
+            let ou=document.getElementById("output");
+          
+            if(fn===""){
+                document.getElementById("error").innerHTML='Fill out the first Name';
+                document.getElementById("error").style.color="red";
+                return;
+            }
+            else if(ln===""){
+                document.getElementById("error").innerHTML='Fill out the Last Name';
+                document.getElementById("error").style.color="red";
+                return;
+            }
+            else if( fn==="" || ln===""){
+                document.getElementById("error").innerHTML='Fill out both name';
+                document.getElementById("error").style.color="red";
+                return;
+            }
+            else{
+                document.getElementById("output").innerHTML=`Hello ${fn} ${ln}`;
+                document.getElementById("error").innerHTML="";
+            }
+        }
+
+
+        fr.addEventListener("submit", my);
+    </script>
+</body>
+</html>

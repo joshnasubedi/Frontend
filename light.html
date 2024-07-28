@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bye{
+            width: 100px;
+            /* height: calc(100%+10px); */
+            height: 100px;
+            background-color: rgb(195, 255, 0);
+            /* border-radius: 50px; */
+            clip-path: ellipse();
+
+        }
+    </style>
+</head>
+<body>
+    <p id="hey"></p>
+    <script>
+    const bulb= document.getElementById('hey');
+    //changing attribute value
+    // bulb.id="ohh";
+    // bulb.class=""
+    //class list 
+    setInterval(()=>{
+    bulb.classList.toggle("bye");
+},3000)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <button id="btn" onclick="remove()">Remove</button>
+    <div class="box" id="co">
+        <button onclick="fcn()">replace</button>
+<p></p>
+<h6></h6>
+    </div>
+    
+    <script>
+        var user= document.getElementById("co");
+      
+        function fcn(){
+            document.getElementById("co").classList.replace("box","hey");
+        }
+        function remove(){
+            document.getElementById("co").classList.remove("hey");
+        }
+        var users= document.getElementById("btn")
+        users.addEventListener("click",remove)
+        // user.classList.contains("container");
+    </script>
+</body>
+</html>
+<!-- write a program to click the count button and when the count button reaches 10 the 
+first class rectangle replaces by circle
+write a program to create element, add 5 child and remove 3rd index child .
+to make head or tail win game there should also be reset function. 
+-->
