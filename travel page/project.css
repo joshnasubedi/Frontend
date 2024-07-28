@@ -1,0 +1,560 @@
+
+
+.nav ul {
+    list-style-type: none;
+
+
+}
+
+.nav {
+    justify-content: space-between;
+    display: flex;
+   
+
+}
+.second{
+    margin-right: 48px;
+}
+
+.second ul {
+    display: flex;
+    gap: 15px;
+}
+
+.login1 {
+    color: rgb(63, 154, 154);
+    padding-top: 10px;
+}
+
+.login {
+    padding-top: 10px;
+}
+
+.second1{
+    margin-right: 20px;
+    display: flex;
+    width:50%;
+    gap: 0px;
+
+
+}
+
+.second1 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.nav1 {
+    justify-content: space-between;
+    display: flex;
+
+
+}
+.child{
+    width: 100%;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    font-size: 40px;
+    margin-top: 0px;
+    color: rgb(54, 178, 178);
+
+}
+
+.nav2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main {
+    margin-top: 0px;
+    box-shadow: grey 0px 2px 7px 0px;
+    position: sticky;
+    /* margin-left: 50px; */
+    width: 100%;
+
+}
+.all{
+    /* overflow: hidden; */
+}
+
+.blog {
+    display: flex;
+    position: relative;
+    margin-top: 4px;
+    margin-right: 0px;
+   
+}
+.search{
+    z-index: 100;
+    padding-left: 8px;
+    margin-top: 10px;
+    /* top: 20px; */
+}
+.blog1{
+    position: absolute; 
+    border-radius: 30px;
+   
+    
+}
+
+.blog1 ::placeholder{
+    padding-left: 42px;
+   
+}
+.blog1 input{
+    padding-top:10px;
+    padding-bottom: 8px;
+}
+
+
+.icon:hover
+{
+    border: 2px solid rgb(30, 104, 104);
+    border-radius: 80px;
+    padding-top: 2px;
+
+}
+.container{
+    display: flex;
+    width:100%;
+    /* height: 400px; */
+    margin-top: 40px;
+    box-shadow: grey 5px 0px 8px 0px;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+
+ 
+
+}
+.container1{
+   
+    width:50%;
+    margin-left: 50px;
+    
+    
+}
+.container2 img{
+  margin-top: 15px;
+  margin-right: 20px;
+  position: absolute;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  
+}
+.container2 h4{
+ /* border: 2px solid brown;
+ color: white; */
+ position: absolute;
+ padding-left: 31px;
+ margin-top: 15px;
+ 
+ /* background-color: brown; */
+}
+.container4{
+    width:50%;
+    /* margin-right: 50px; */
+}
+.containerlol{
+    border: 2px solid brown;
+    color: white;
+    background-color: brown;
+    height: 45px;
+    width:124px;
+ position: relative;
+ margin-top: 20px;
+ display: flex;
+ /* margin-left: 30px; */
+ justify-content: start;
+ border-radius: 30px;
+}
+.headings p{
+    font-size: 12px;
+}
+.headings h1{
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
+.headings h5{
+    font-weight: 0px;
+    font-size: 13px;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+}
+.names{
+    color: brown;
+    padding-top: 5px;
+}
+.image_main{
+    display: flex;
+    width:100%;
+    gap: 20px;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+.images{
+ width:25%;
+ height: 350px;
+ position: relative;
+
+}
+.images img{
+    height: 300px;
+border-radius: 50px;
+ width:100%;
+}
+.image_button{
+  position: absolute;
+  z-index: 1;
+}
+.image_button a:hover{
+    background-color: rgb(78, 76, 76);
+    max-height: max-content;
+    width: 100%;
+   padding: 7px 10px;
+    /* overflow: hidden; */
+    border-radius: 30px;
+
+
+}
+.image_button{
+    background-color: brown;
+    height: 28px;
+    width: 84px;
+    color: white;
+    padding-left: 7px;
+   left: 5%;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.recents{
+   margin: auto;
+   color: aqua;
+   font-size: 20px;
+   /* margin-left: 50px; */
+}
+.swoyambhu{
+    display: flex;
+    width:100%;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+    gap: 20px;
+    height: 245px;
+}
+.swoyambhuparent{
+    display: flex;
+    width:100%;
+    gap:30px;
+   
+}
+.swoyambhuchild1{
+    width: 50%;
+}
+.swoyambhuchild2{
+    width: 50%;
+}
+.swoyambhuchild2 p{
+font-size: 10px;
+}
+.swoyambhuchild2 h4{
+   text-align: right;
+   padding-right: 20px;
+   color: blue;
+}
+.swoyambhuchild2 h5{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-right: 13px;
+    text-align: justify;
+  
+}
+.swoyambhuchild2 h3{
+    font-size: 23px;
+}
+.swoyambhuchild1 img{
+ border-radius: 20px;
+
+
+}
+.swoyambhuparent:hover{
+    border: 2px solid blue;
+
+}
+.swoyambhuchild1{
+    position: relative;
+}
+.swoyambhuchild1 button{
+    position: absolute;
+    z-index: 1;
+    background-color: brown;
+    color: #fff;
+    margin-left: 10px;
+   margin-top: 10px;
+   padding: 3px 8px;
+   left:0;
+   border-radius: 20px;
+ 
+}
+.activity{
+margin-top: 50px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    /* margin-left: 50px; */
+}
+.safari img{
+    position: relative;
+}
+.safari button{
+  position: absolute;
+  z-index: 1;
+right: 200px;
+margin-top: 10px;
+background-color: brown;
+color: white;
+border-radius: 20px;
+padding: 5px 10px;
+}
+.travel img{
+    position: relative;
+}
+.travel button{
+  position: absolute;
+  z-index: 1;
+right: 500px;
+margin-top: 10px;
+background-color: brown;
+color: white;
+border-radius: 20px;
+padding: 5px 10px;
+}
+.trekking img{
+    position: relative;
+}
+.trekking button{
+  position: absolute;
+  z-index: 1;
+right: 790px;
+margin-top: 10px;
+background-color: brown;
+color: white;
+border-radius: 20px;
+padding: 5px 10px;
+}
+.adventure img{
+    position: relative;
+}
+.adventure button{
+  position: absolute;
+  z-index: 1;
+left: 20px;
+margin-top: 10px;
+background-color: brown;
+color: white;
+border-radius: 20px;
+padding: 5px 10px;
+}
+
+
+.adventure, .trekking, .travel, .safari{
+width: 100%;
+height:500px;
+}
+.activity_child{
+    display: block;
+    width: 30%;
+    height: 550px;
+
+}
+.adventure1 h3{
+    font-size: 23px;
+
+}
+.adventure1 p{
+    font-size: 11px;
+}
+.adventure1 h5{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-right: 13px;
+    text-align: justify;
+  
+}
+.adventure1 h4{
+    text-align: right;
+    padding-right: 20px;
+    color: blue;
+}
+.activity_child:hover{
+    border: 2px solid blue;
+}
+.load{
+
+    background-color: rgb(92, 92, 209);
+  margin-left: 40%;
+  margin-top: 10px;
+  border-radius: 10px;
+padding: 10px 20px;
+}
+.gallery{
+    display: flex;
+    margin: 10px 0px;
+    gap:35px;
+}
+.galleryheader h3{
+   
+    color: rgb(59, 59, 137);
+    font-weight: 900;
+    
+}
+.galleryheader{
+    width: 150px;
+    height:19px;
+    /* margin-left: 60px; */
+   
+}
+.gallerychild h5{
+    line-height:0.2;
+    font-size: 15px;
+    padding-left: 50px;
+}
+.galleryheader:hover{
+    border-bottom: 2px solid blue;
+   
+    
+}
+    
+.gallerychild{
+height: 350px;
+}
+
+.gallerychild:hover{
+    border:2px solid blue;
+    padding:5px 5px;
+
+}
+.blog2{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    gap: 15px;
+    margin:5px 0px;
+
+}
+.blogchild{
+    width:13%;
+      
+}
+.blogchild img{
+border-radius: 15px;
+}
+.blogs{
+    line-height:1.2;
+    font-size: 15px;
+    /* margin-left: 50px;  */
+    color: rgb(43, 43, 165);
+}
+.blogchild:hover{
+    border:2px solid blue;
+    padding:5px 5px; 
+}
+.end{
+    display: flex;
+    margin-top: 20px;
+    gap: 90px;
+    /* margin-left: 20px; */
+    background-color: rgb(94, 94, 195);
+    color:#fff;
+    padding-top: 10px;
+}
+.end1 li{
+    list-style-type: none;
+    font-size: 12px;
+
+}
+.em input{
+   padding-right: 2px;
+   width:280px;
+   border-radius: 5px;
+   background-color: rgb(94, 94, 195);
+
+}
+.end1 ::placeholder{
+    color:#f9f6f6;
+    z-index: 1;
+}
+.imap{
+    display: flex;
+    gap:10px;
+}
+@media only screen and (max-width:600px){
+.nav,.nav1  {
+    display: none;
+    padding-left: 50px;
+}
+.heroSection{
+    display: block;
+    padding-left: 50px;
+}
+.container4 img{
+    padding-left: 55px;
+    padding-top: 22px;
+}
+.manyy{
+    display: flex;
+    padding-left: 10px;
+}
+.recents{
+    display: flex;
+    padding-left: 30%; 
+}
+.swoyambhuparent{
+    flex-direction: column;
+}
+.swoyambhuchild1 img{
+    display: block;
+    padding-left: 50px;
+   
+}
+.swoyambhuchild1 button{
+    margin:0;
+}
+.swoyambhuchild2{
+    display: block;
+    padding: 0;
+    margin-top: 30px;
+}
+.activity{
+    margin-top: 548px;
+}
+.swoyambhuchild2{
+    display: block;
+    /* margin-bottom: 500px; */
+}
+.activity{
+    margin-top: 500px;
+}
+.swoyambhuchild2 h3{
+    margin-left: 30px;
+}
+.swoyambhuchild1 button{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.swoyambhuchild2 p{
+margin-left: 30px;
+}
+.swoyambhuchild2 h5{
+margin-left: 30px;
+}
+}
+
+
+
