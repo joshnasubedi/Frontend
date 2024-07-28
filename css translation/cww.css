@@ -1,0 +1,74 @@
+.shape{
+    display: flex;
+    /* gap: 30px; */
+    /* justify-content: space-between; */
+ 
+}
+.shape1{
+  display: flex;
+  /* gap: 30px;
+margin-top: 30px; */
+  /* justify-content: space-between; */
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:red; left:400px; top:400px;}
+    50%  {background-color:red; left:0px; top:400px;}
+    75%  {background-color:red; left:400px; top:0px;}
+    100% {background-colory:red; left:0px; top:0px;} 
+  }
+  .yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 10s;
+  }
+  @keyframes example1 {
+    0%   {background-color:yellow; left:400px; top:0px;}
+    25%  {background-colory:yellow; left:0px; top:400px;}
+    50%  {background-color:yellow; left: -100px; top:0px;}
+    75%  {background-color:yellow; left:300px; top:400px;}
+    100% {background-colory:yellow; left:300px; top:0px;}
+  }
+  .blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 10s;
+  }
+@keyframes example2 {
+    0%   {background-color:blue; left:0px; top:400px;}
+    25%  {background-colory:blue; left:400px; top:0px;}
+    50%  {background-color:blue; left:400px; top:300px;}
+    75%  {background-color:blue; left:0px; top:-100px;}
+    100% {background-colory:blue; left:0px; top:300px;} 
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 10s; 
+}
+@keyframes example3 {
+    0%   {background-color:green; left:400px; top:400px;}
+    25%  {background-colory:green; left:0px; top:0px;} 
+    50%  {background-color:green; left:300px; top:-100px;}
+    75%  {background-color:green; left:-100px; top:300px;}
+    100% {background-colory:green; left:300px; top:300px;} 
+}
+
