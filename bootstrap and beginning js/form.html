@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
+</head>
+<style>
+    .container {
+        margin-top: 10px;
+
+    }
+
+    body {
+        background-image: url(thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+        background-repeat: no-repeat;
+        margin-left: 30px;
+        background-position: center;
+        /* height: 10000px; */
+    }
+</style>
+
+<body>
+
+    <body>
+        <div class="all">
+
+            <form>
+            <div class="container mt-5">
+                <h2>TITLE:</h2>
+        
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="container mt-5">
+                        <div class="dropdown widt">
+                            <label for="name"> Enter your Education:</label>
+                            <br>
+
+                            <select name="" id="">
+                                <option value="">Education</option>
+                                <option value="">SEE </option>
+                                <option value="">Intermediate</option>
+                                <option value="">Undergraduate</option>
+                            </select>
+
+
+                        </div>
+                    </div>
+            <!-- </div> -->
+            <div class="container mt-5">
+                <label for="name"> SEE Passed Out Year</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="datepicker" placeholder="Select a date">
+                    <button class="btn btn-outline-secondary" type="button" id="clearDate">Clear</button>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <label for="name"> +2 Passed Out Year</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="datepicker" placeholder="Select a date">
+                    <button class="btn btn-outline-secondary" type="button" id="clearDate">Clear</button>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <label for="number col-2">GPA:</label>
+                <input type="number col-6" class="form-control" id="gpa" placeholder="Enter your GPA">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+    </div>
+        </div>
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+                $('#datepicker').datepicker({
+                    format: 'yyyy-mm-dd',
+                    autoclose: true,
+                    todayHighlight: true
+                });
+
+                $('#clearDate').on('click', function () {
+                    $('#datepicker').datepicker('clearDates');
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#datepicker').datepicker({
+                    format: 'yyyy-mm-dd',
+                    autoclose: true,
+                    todayHighlight: true
+                });
+
+                $('#clearDate').on('click', function () {
+                    $('#datepicker').datepicker('clearDates');
+                });
+            });
+        </script>
+    </body>
+
+</html>

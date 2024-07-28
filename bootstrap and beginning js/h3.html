@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <H1>Guess the number!</H1>
+    <H2 id="statement"></H2>
+    <input id="num" type="num"> <br><br>
+    <button type="button" onclick="getInputValue();">submit</button>
+    <script>
+        let x = 90;
+        function getInputValue() {
+            let y = document.getElementById("num").value;
+            if (y == x) {
+                document.getElementById("statement").innerHTML = "Congratulations! You Guessed the Right Number";
+            } else {
+                document.getElementById("statement").innerHTML = "Wrong! Try Again";
+            }
+        }
+    </script>
+</body>
+
+</html>
