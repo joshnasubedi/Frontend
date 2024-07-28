@@ -1,0 +1,28 @@
+
+.display{
+    display: flex;
+
+    gap: 10px;
+    width: 100%;
+    
+    
+}
+#displaynum{
+background-color: pink;
+font-size: 40px; 
+}
+#plus, #minus,#resetbtn{
+    background-color: darkgreen;  
+    font-size: 40px; 
+}
+#plus, #minus, #displaynum{
+    width: 30%;
+    height: 70px;
+    
+}
+#resetbtn{
+margin-left: 40%;
+margin-top: 5%;
+
+}
+
